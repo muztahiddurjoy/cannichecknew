@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden!important;
+}
+.navbar{
+    box-shadow: 1px 1px 1px 1px rgb(219, 219, 219);
+}
+.font-bold{
+    font-weight: 700;
+}
+.topflex{
+    display: flex;
+    align-items: center;
+}
+.list__cannI{
+    list-style: none;
+}
+.list__cannI > li{
+    font-size: 18px;
+}
+.text-cross{
+    text-decoration: line-through;  
+    font-weight: 700;    
+}
+.text-semiwhite{
+    color: #cecece;
+}
+#becomemem{
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+#started{
+    background-color: #e7e7e7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#topheader{
+    background-color: #e7e7e7;
+}
+.text-semiwhite:hover{
+    color: #adadad;
+}
+@media only screen and (max-width:600px) {
+.topflex{
+    flex-direction: row-reverse!important;
+}   
+}
