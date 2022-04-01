@@ -14,7 +14,10 @@ html{
     box-shadow: 1px 1px 1px 1px rgb(219, 219, 219);
 }
 .font-bold{
-    font-weight: 700;
+    font-weight: 800;
+}
+.image__gear{
+    margin-left: 240px;
 }
 .topflex{
     display: flex;
@@ -28,7 +31,7 @@ html{
 }
 .text-cross{
     text-decoration: line-through;  
-    font-weight: 700;    
+    font-weight: 800;    
 }
 .text-semiwhite{
     color: #cecece;
@@ -56,4 +59,16 @@ html{
 .topflex{
     flex-direction: row-reverse!important;
 }   
+}
+@media only screen and (min-width:1400px) {
+   
+    .list__cannI{
+         margin-left: 100px;
+    }
+    .list__cannI > li{
+        font-size: 1.8em;
+    }
+    .list__cannI > li > i{
+        font-size: 1.8em;
+    }
 }
