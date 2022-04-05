@@ -52,6 +52,14 @@ html{
 #topheader{
     background-color: #e7e7e7;
 }
+.custom__container{
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+.yt__video{
+    height: 300px;
+    width: 600px;
+}
 .text-semiwhite:hover{
     color: #adadad;
 }
@@ -60,8 +68,146 @@ html{
     flex-direction: row-reverse!important;
 }   
 }
-@media only screen and (min-width:1400px) {
-   
+@media only screen and (min-width:3000px) {
+    .custom__container{
+        padding-left: 100px!important;
+        padding-right: 100px;
+    }
+    h1{
+        font-size: 5em!important;
+    }
+    h4{
+        font-size: 3em!important;
+    }
+    h3{
+        font-size: 4em!important;
+    }
+    h5{
+        font-size: 2em!important;
+    }
+    p{
+        font-size: 2em!important;
+    }
+    a{
+        font-size: 2em!important;
+    }
+    .yt__video{
+        height: 600px;
+        width: 1200px;
+    }
+    img{
+        width: 70%;
+    }
+    li > a{
+        margin-left: .3em;
+        margin-right: .3em;
+    }
+    button{
+        font-size: 2em!important;
+        border-radius: .3em!important;
+        padding: .5em!important;
+    }
+    .list__cannI{
+         margin-left: 100px;
+    }
+    .list__cannI > li{
+        font-size: 2em;
+    }
+    .list__cannI > li > i{
+        font-size: 2em;
+    }
+}
+ 
+@media only screen and (min-width:2000px) and (max-width: 3000px) {
+    .custom__container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    h1{
+        font-size: 3.8em!important;
+    }
+    h4{
+        font-size: 1.8em!important;
+    }
+    h3{
+        font-size: 2.8em!important;
+    }
+    h5{
+        font-size: 0.8em!important;
+    }
+    p{
+        font-size: 1.8em!important;
+    }
+    a{
+        font-size: 1.4em!important;
+    }
+    .yt__video{
+        height: 400px;
+        width: 800px;
+    }
+    img{
+        width: 70%;
+    }
+    li > a{
+        margin-left: .2em;
+        margin-right: .2em;
+    }
+    button{
+        font-size: 1.6em!important;
+        border-radius: .3em!important;
+        padding: .5em!important;
+    }
+    .list__cannI{
+         margin-left: 100px;
+    }
+    .list__cannI > li{
+        font-size: 1.4em;
+    }
+    .list__cannI > li > i{
+        font-size: 1.4em;
+    }
+}
+
+
+@media only screen and (min-width:1660px) and (max-width: 2000px) {
+    .custom__container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    h1{
+        font-size: 3.8em!important;
+    }
+    h4{
+        font-size: 1.8em!important;
+    }
+    h3{
+        font-size: 2.8em!important;
+    }
+    h5{
+        font-size: 0.8em!important;
+    }
+    p{
+        font-size: 1.6em!important;
+    }
+    a{
+        font-size: 1.4em!important;
+    }
+    .yt__video{
+        height: 400px;
+        width: 600px;
+    }
+    img{
+        width: 70%;
+    }
+    li > a{
+        margin-left: .1em;
+        margin-right: .1em;
+    }
+    button{
+        font-size: 1.5em!important;
+        border-radius: .3em!important;
+        padding: .5em!important;
+    }
     .list__cannI{
          margin-left: 100px;
     }
@@ -72,3 +218,80 @@ html{
         font-size: 1.8em;
     }
 }
+
+@media only screen and (max-width:1200px) and (min-width: 760px)  {
+    .custom__container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    h1{
+        font-size: 2.2em!important;
+    }
+    h4{
+        font-size: 1.6em!important;
+    }
+    h3{
+        font-size: 1.8em!important;
+    }
+    h5{
+        font-size: 1.4em!important;
+    }
+    p{
+        font-size: 1em!important;
+    }
+    a{
+        font-size: 1em!important;
+    }
+    .yt__video{
+        height: 250px;
+        width: 450px;
+    }
+    img{
+        width: 60%;
+    }
+    li > a{
+        margin-left: .01em;
+        margin-right: .01em;
+    }
+    button{
+        font-size: 1em!important;
+        border-radius: .3em!important;
+        padding: .5em!important;
+    }
+    .list__cannI{
+         margin-left: 100px;
+    }
+   
+    .list__cannI > li{
+        font-size: 1.3em;
+    }
+    .list__cannI > li > i{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .custom__container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .yt__video{
+        height: 250px;
+        width: 350px;
+    }
+    .icon{
+        width: 150px!important ;
+    }
+    .bottoms{
+        flex-direction: column;
+    }
+    .topflex{
+        width: 100%!important;
+    }
+    .list__cannI > li{
+        font-size: 1.3em;
+    }
+    .list__cannI > li > i{
+        font-size: 1.3em;
+    }
+} */
