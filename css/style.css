@@ -17,7 +17,7 @@ html{
     font-weight: 800;
 }
 .image__gear{
-    margin-left: 240px;
+    margin-left: 270px;
 }
 .topflex{
     display: flex;
@@ -68,7 +68,63 @@ html{
     flex-direction: row-reverse!important;
 }   
 }
-@media only screen and (min-width:3000px) {
+@media only screen and (min-width:4000px){
+    .image__gear{
+        margin-left: 640px;
+    }
+    
+    .custom__container{
+        padding-left: 200px!important;
+        padding-right: 100px;
+    }
+    h1{
+        font-size: 5em!important;
+    }
+    h4{
+        font-size: 3em!important;
+    }
+    h3{
+        font-size: 4em!important;
+    }
+    h5{
+        font-size: 2em!important;
+    }
+    p{
+        font-size: 2em!important;
+    }
+    a{
+        font-size: 2em!important;
+    }
+    .yt__video{
+        height: 600px;
+        width: 1200px;
+    }
+    img{
+        width: 70%;
+    }
+    li > a{
+        margin-left: .3em;
+        margin-right: .3em;
+    }
+    button{
+        font-size: 2em!important;
+        border-radius: .3em!important;
+        padding: .5em!important;
+    }
+    .list__cannI{
+         margin-left: 800px;
+    }
+    .list__cannI > li{
+        font-size: 2em;
+    }
+    .list__cannI > li > i{
+        font-size: 2em;
+    }
+}
+@media only screen and (min-width:3000px) and (max-width: 4000px) {
+    .image__gear{
+        margin-left: 640px;
+    }
     .custom__container{
         padding-left: 100px!important;
         padding-right: 100px;
@@ -108,7 +164,7 @@ html{
         padding: .5em!important;
     }
     .list__cannI{
-         margin-left: 100px;
+         
     }
     .list__cannI > li{
         font-size: 2em;
@@ -294,4 +350,4 @@ html{
     .list__cannI > li > i{
         font-size: 1.3em;
     }
-} */
+} 
