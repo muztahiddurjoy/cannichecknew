@@ -163,9 +163,6 @@ html{
         border-radius: .3em!important;
         padding: .5em!important;
     }
-    .list__cannI{
-         
-    }
     .list__cannI > li{
         font-size: 2em;
     }
@@ -331,9 +328,20 @@ html{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .image__gear{
+        margin-top: 10px;
+        margin-left: -30px!important;
+        width: 100%;
+    }
+    .toptext{
+        margin-top: 20px;
+    }
     .yt__video{
-        height: 250px;
-        width: 350px;
+        height: 200px;
+        width: 250px;
+    }
+    .font-bold{
+        font-weight: 700!important;
     }
     .icon{
         width: 150px!important ;
@@ -343,11 +351,20 @@ html{
     }
     .topflex{
         width: 100%!important;
+        display: flex!important;
+        flex-direction: column-reverse!important;
+    }
+    h5{
+        font-size: 16px!important;
+        margin-top: 20px;
+    }
+    .list__cannI{
+        margin-top: 20px;
     }
     .list__cannI > li{
-        font-size: 1.3em;
+        font-size: 17px!important;
     }
     .list__cannI > li > i{
-        font-size: 1.3em;
+        font-size: 17px!important;
     }
 } 
