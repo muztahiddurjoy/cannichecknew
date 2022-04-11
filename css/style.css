@@ -272,13 +272,20 @@ html{
     }
 }
 
-@media only screen and (max-width:1200px) and (min-width: 760px)  {
+@media only screen and (max-width:2000px) and (min-width: 760px)  {
     .custom__container{
-        padding-left: 60px;
+        padding-left: 80px;
         padding-right: 60px;
     }
+    .image__gear{
+        margin-left: 160px;
+        width: 90%;
+    }
+    .custom__h1{
+        font-size: 3em!important;
+    }
     h1{
-        font-size: 2.2em!important;
+        font-size: 2.8em!important;
     }
     h4{
         font-size: 1.6em!important;
@@ -288,6 +295,9 @@ html{
     }
     h5{
         font-size: 1.4em!important;
+    }
+    .custom__p{
+        font-size: 1.5em!important;
     }
     p{
         font-size: 1em!important;
@@ -312,16 +322,17 @@ html{
         padding: .5em!important;
     }
     .list__cannI{
-         margin-left: 100px;
+         margin-left: 40px;
     }
    
     .list__cannI > li{
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
     .list__cannI > li > i{
         font-size: 1.3em;
     }
 }
+
 
 @media only screen and (max-width:700px){
     .custom__container{
