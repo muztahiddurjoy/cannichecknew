@@ -224,7 +224,9 @@ html{
     }
 }
 
-
+.text-justified{
+    text-align: justify!important;
+}
 @media only screen and (min-width:1660px) and (max-width: 2000px) {
     .custom__container{
         padding-left: 100px;
